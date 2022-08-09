@@ -1,0 +1,146 @@
+.container{
+    width: 100%;
+    height: 1200px;
+    margin: 0%;
+}
+.awar {
+    display: flex;
+}
+.casaform{
+    display: contents;
+    top: 2%;
+}
+.formulario{
+    float: right;
+    position: relative;
+    width: 40%;
+    margin-left: 23%;
+    margin-right: 0%;
+    padding-top: 10%;
+}
+.formulario-labe, .formulario__input, .formulario-submit{
+    display: block;
+}
+.formulario h1{
+    padding-bottom: 3%;
+    margin-left: 40%;
+}
+.formulario__input:focus + .formulario-label{
+    margin-top: -18%;
+}
+
+.formulario__input{
+    width: 120%;
+    background: transparent;
+    padding: 3%;
+    margin-top: 8%;
+}
+.formulario-label{
+    position: absolute; 
+    margin-top: -8%;
+    left: 2%;
+    z-index: -20;
+}
+.formulario-submit{
+    margin-top: 4%;
+    padding: 2% 6%;
+    margin-left: 50%;
+}
+.anclar{
+    margin-top: -18%;
+}
+.container{
+    height: 100%;
+}
+
+/* Animacion monitor */
+.leftparte{
+    padding-top: 11%;
+}
+.monitor{
+    position: relative;
+    display: inline-block;
+}
+.textmoni{
+    position: absolute;
+    bottom: 32%;
+}
+.textmoni h4{
+    margin-top: -36%;
+    padding-left: 6%;
+    font-size: 120%;
+    color: #008D1C;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    width: 52ch;
+    animation: typing 2s steps(42),
+    blink .5s infinite step-end alternate;
+    overflow:hidden;
+    
+    }
+
+    @keyframes typing{
+        from{ width: 0}
+    }
+    @keyframes blink{
+        50%{border-color: transparent;}
+}
+
+.monitor img{
+    margin-top: -12%;
+    margin-left: -1%;
+    width: 80%;
+    background-color: #077AC4;
+    height: 42rem;
+}
+
+.leftparte div{
+    width: 140%;
+}
+
+.isdelmoni{
+    display: flex;
+    bottom: 20%;
+    margin-left: 110%;
+}
+.isdelmoni div{
+    width: 9%;
+    height: 19%;
+    margin-top: -11%;
+    z-index: 30;
+    margin-left: 4%;
+}
+.isdelmoni div:hover{
+    transition: 400ms;
+    background-color: #8edcf3;
+    cursor: pointer;
+    border-radius: 13%;
+}
+.isdelmoni div i{
+    margin-left:38%;
+    
+}
+.isdelmoni div a{
+    text-decoration: none;
+    cursor: pointer ;
+    margin-left:22%;
+}
+.itwitter{
+    color: #077AC4;
+}
+.iinstagram{
+    color: #C42407;
+}
+.ilinkedin{
+    color: #1E1987;
+}
+.tw{
+    color: #077AC4;
+}
+.ig{
+    color: #C42407;
+}
+.lik{
+    color: #1E1987;
+}

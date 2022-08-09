@@ -1,0 +1,187 @@
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+    .botonac{
+        position: absolute;
+        bottom: 44%;
+        left: 23%;
+        width: 30%;
+    }
+    .contenedor2 div div button{
+        z-index: 15;
+        right: 50%;
+        width: 40%;
+        height: 10%;
+        padding: 3% 8%;
+        border-radius: 8%;
+        background-color: #0CABDE  ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 130%;
+        color: aliceblue;
+    }
+    .text1{
+        /* margin-top: 40px; */
+        position: absolute;
+        bottom: 45%;
+        left: 0px;
+    }
+    .mundo{
+        height: 50rem;
+    }
+    .mund3{
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin-left: 3%;
+        margin-top: 2%;
+        text-align: center;
+    
+    }
+    .mund3 h1{
+        font-size: 220%;
+        padding-bottom: 3%;
+    }
+    .mund3 div h4{
+        font-size: 130%;
+    }
+    .mund3 div i{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        color: rgb(245, 212, 240);
+        padding-top: 4%;
+        font-size: 260%;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        height: 70px;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 14px #777, 0 0 20px #CCC inset;
+    }
+    .portal2{
+        position: relative;
+        width: 85%;
+        height: 75%;
+        margin-left: 8%;
+        top: 9%;
+    }
+    .tem1{
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .mund1uni{
+        position: absolute;
+        display: flex;
+        margin-top: -24%;
+        margin-left: 3%;
+    }
+    .mund1uni div{
+     margin-right: 10%;
+     text-align: center;
+     font-size: 120%;
+     cursor: pointer;
+    }
+    .tw{
+        color: #0CABDE;
+        text-decoration: none;
+    }
+    .ig{
+        text-decoration: none;
+    }
+    .lik{
+        text-decoration: none;
+    }
+    .vector{
+        display: none;
+    }
+}
+@media screen and (min-width:1600px) and (max-width: 1820px) {
+    .botonac{
+        position: absolute;
+        bottom: 42%;
+        left: 26%;
+        width: 40%;
+        
+    }
+    .contenedor2 div div button{
+        z-index: 15;
+        right: 50%;
+        width: 30%;
+        height: 10%;
+        padding: 3% 8%;
+        border-radius: 8%;
+    }
+    .text1{
+        /* margin-top: 40px; */
+        position: absolute;
+        bottom: 36%;
+        left: 0px;
+    }
+    .mundo{
+        height: 60rem;
+    }
+    .mund3{
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin-left: 3%;
+        margin-top: 2%;
+        text-align: center;
+    
+    }
+    .mund3 h1{
+        font-size: 220%;
+        padding-bottom: 3%;
+    }
+    .mund3 div h4{
+        font-size: 130%;
+    }
+    .mund3 div i{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        color: rgb(245, 212, 240);
+        padding-top: 4%;
+        font-size: 260%;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        height: 70px;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 14px #777, 0 0 20px #CCC inset;
+    }
+    .portal2{
+        position: relative;
+        width: 85%;
+        height: 75%;
+        margin-left: 8%;
+        top: 9%;
+    }
+    .tem1{
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .mund1uni{
+        position: absolute;
+        display: flex;
+        margin-top: -16%;
+        margin-left: 3%;
+    }
+    .mund1uni div{
+     margin-right: 10%;
+     text-align: center;
+     font-size: 120%;
+     cursor: pointer;
+    }
+    .tw{
+        color: #0CABDE;
+        text-decoration: none;
+    }
+    .ig{
+        text-decoration: none;
+    }
+    .lik{
+        text-decoration: none;
+    }
+    .vector{
+        display: none;
+    }
+}
