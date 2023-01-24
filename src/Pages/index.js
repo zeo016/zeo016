@@ -4,8 +4,7 @@ import "../colors/mediaquerys.css"
 import {Skills} from '../inf/skillsuwu'
 import "../colors/contenedor2y3.css"
 import { Ability } from "../inf/ability"
-import {siguiente,siguientee,siguienteee,siguienteeee} from "../functions/most.js"
-
+import {awue} from "../functions/most"
 
 export const Indexpage = ()=>{
     return(
@@ -21,13 +20,19 @@ export const Indexpage = ()=>{
         </div>
           <div className="mund1uni">
             <div>
-              <i className="fa-brands fa-twitter itwitter"></i><br /><a className="tw">Twitter</a>
+              <a href="https://twitter.com/_zeo016" >
+                <i className="fa-brands fa-twitter tw"></i><br /><a className="ti" href="">Twitter</a>
+              </a>
             </div>
-            <div href="">
-              <i className="fa-brands fa-instagram iinstagram" href=""></i><br /><a className="ig" href="">Instagram</a>
+            <div >
+              <a href="https://www.instagram.com/zeo016/">
+                <i className="fa-brands fa-instagram ig" href="https://www.instagram.com/zeo016/"></i><br /><a className="ig" href="">Instagram</a>
+              </a>
             </div>
             <div>
-              <i className="fa-brands fa-linkedin ilinkedin"></i><br /><a className="lik">Linkedin</a>
+              <a href="https://www.linkedin.com/in/zeo-callan-2652a9248">
+                <i className="fa-brands fa-linkedin like"></i><br /><a className="like" href="">Linkedin</a>
+              </a>
             </div>
           </div>
       </div>
@@ -121,13 +126,13 @@ export const Indexpage = ()=>{
             <div>
               <img alt="" src="../images/fonds/load2.png" className="img12"/>
               <img alt="" src="../images/fonds/unfinished2.png" className="img13"/>
-              <button className="desre" onClick={setInterval((siguiente),3000)}><i className="fa-solid fa-angle-left "></i></button>
+              <button className="desre" ><i className="fa-solid fa-angle-left "></i></button>
               <button className="desra" ><i className="fa-solid fa-angle-right "></i></button>
             </div>
             <div>
               <img alt="" src="../images/fonds/load2.png" className="img14"/>
               <img alt="" src="../images/fonds/unfinished2.png" className="img15"/>
-              <button className="desre" onClick={setInterval((siguientee),3000)}><i className="fa-solid fa-angle-left "></i></button>
+              <button className="desre" ><i className="fa-solid fa-angle-left "></i></button>
               <button className="desra" ><i className="fa-solid fa-angle-right "></i></button>
             </div>
           </div>
@@ -136,13 +141,13 @@ export const Indexpage = ()=>{
             <div>
               <img alt="" src="../images/fonds/load2.png" className="img16"/>
               <img alt="" src="../images/fonds/unfinished2.png" className="img17"/>
-              <button className="desre" onClick={setInterval((siguienteee),3000)}><i className="fa-solid fa-angle-left "></i></button>
+              <button className="desre" ><i className="fa-solid fa-angle-left "></i></button>
               <button className="desra" ><i className="fa-solid fa-angle-right "></i></button>
             </div>
             <div>
               <img alt="" src="../images/fonds/load2.png" className="img18"/>
               <img alt="" src="../images/fonds/unfinished2.png" className="img19"/>
-              <button className="desre" onClick={setInterval((siguienteeee),3000)}><i className="fa-solid fa-angle-left "></i></button>
+              <button className="desre" ><i className="fa-solid fa-angle-left "></i></button>
               <button className="desra" ><i className="fa-solid fa-angle-right "></i></button>
             </div>
           </div>

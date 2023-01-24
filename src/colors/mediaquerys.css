@@ -1,4 +1,4 @@
-@media screen and (min-width: 1300px) and (max-width: 1600px) {
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
     .botonac{
         position: absolute;
         bottom: 44%;
@@ -12,7 +12,7 @@
         height: 10%;
         padding: 3% 8%;
         border-radius: 8%;
-        background-color: #0CABDE  ;
+        background-color: #0c90bd  ;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 130%;
         color: aliceblue;
@@ -25,6 +25,9 @@
     }
     .mundo{
         height: 50rem;
+    }
+    .mund2{
+        width: 150;
     }
     .mund3{
         width: 30%;
@@ -64,36 +67,90 @@
         top: 9%;
     }
     .tem1{
-        margin-left: 10%;
-        margin-top: 10%;
+        margin-left: 4%;
+        margin-top: 8%;
+    }
+    .tem1 h1{
+        margin-left: 2%;
+    }
+    .tem1 div{
+        text-align: center;
+    }
+    .tem1 div{
+        width: 150%;
+    }
+    .tem1 div h5{
+        width: 150%;
+    }
+    .skillcont{
+        margin-left: 40%;
     }
     .mund1uni{
         position: absolute;
         display: flex;
-        margin-top: -24%;
+        margin-top: -25%;
         margin-left: 3%;
+        width: 33%;
     }
     .mund1uni div{
-     margin-right: 10%;
+     margin-right: 2%;
      text-align: center;
      font-size: 120%;
      cursor: pointer;
+     width: 6% ;
+     height: 8%;
     }
-    .tw{
-        color: #0CABDE;
+    .mund1uni div:hover{
+        transition: 600ms;
+        background-color: #8edcf3;
+        cursor: pointer;
+        border-radius: 13%;
+    }
+    .mund1uni div a{
+        text-decoration: none;
+        cursor: pointer ;
+    }
+    .tw, .ti{
+        color: #a6e5fa;
         text-decoration: none;
     }
     .ig{
         text-decoration: none;
+        color: rgb(243, 142, 75);
     }
-    .lik{
+    .like{
         text-decoration: none;
+        color: #054ab1;
     }
     .vector{
         display: none;
     }
+    .mundo2{
+        margin: 5%;
+        height: 53rem;
+        width: 92%;
+        background-color: white;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 44px #777, 0 0 20px #CCC inset;
+    }
+    .unit2 div div img{
+        position: absolute;
+        z-index: 20;
+        width: 120%;
+        margin-left: -50%;
+        margin-top: -7%;
+        height: 100%;
+        border-radius: 4%;
+        -webkit-box-shadow:0 0px 2px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 2px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 7px #777, 0 0 20px #CCC inset;
+    
+    }
+    
 }
-@media screen and (min-width:1600px) and (max-width: 1820px) {
+@media screen and (min-width:1400px) and (max-width: 1820px) {
+    
     .botonac{
         position: absolute;
         bottom: 42%;
@@ -112,8 +169,8 @@
     .text1{
         /* margin-top: 40px; */
         position: absolute;
-        bottom: 36%;
-        left: 0px;
+        bottom: 43%;
+        left: 20px;
     }
     .mundo{
         height: 60rem;
@@ -156,30 +213,60 @@
         top: 9%;
     }
     .tem1{
-        margin-left: 10%;
-        margin-top: 10%;
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+    .tem1 h1{
+        margin-left: 2%;
+    }
+    .tem1 div{
+        text-align: center;
+    }
+    .tem1 div{
+        width: 150%;
+    }
+    .tem1 div h5{
+        width: 150%;
+    }
+    .skillcont{
+        margin-left: 40%;
     }
     .mund1uni{
         position: absolute;
         display: flex;
-        margin-top: -16%;
+        margin-top: -20%;
         margin-left: 3%;
+        width: 33%;
     }
     .mund1uni div{
-     margin-right: 10%;
-     text-align: center;
-     font-size: 120%;
-     cursor: pointer;
+        margin-right: 1%;
+        text-align: center;
+        font-size: 120%;
+        cursor: pointer;
+        width: 6%;
+        height: 7%;
+    }
+    .mund1uni div:hover{
+        transition: 600ms;
+        background-color: #8edcf3;
+        cursor: pointer;
+        border-radius: 13%;
+    }
+    .mund1uni div a{
+        text-decoration: none;
+        cursor: pointer ;
     }
     .tw{
-        color: #0CABDE;
+        color: #a6e5fa;
         text-decoration: none;
     }
     .ig{
         text-decoration: none;
+        color: rgb(243, 142, 75);
     }
     .lik{
         text-decoration: none;
+        color: #054ab1;
     }
     .vector{
         display: none;

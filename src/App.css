@@ -71,15 +71,15 @@ body{
 }
 
 .text1 h1{
+    padding-right: 12%;
     font-size: 720%;
     color: rgba(3, 34, 170, 0.486);
     display: block;
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 11ch;
+    width: 10ch;
     z-index: 0;
-
     animation: typing 2s steps(10),
     blink .5s infinite step-end alternate;
     overflow:hidden;
@@ -118,8 +118,8 @@ body{
     margin-left: 160%;
 }
 .port{
-    margin-top: 13%;
-    margin-left: 34%;
+    margin-top: 10%;
+    margin-left: 37%;
     width: 30%;
 }
 .port:hover{
@@ -157,30 +157,7 @@ body{
     text-align: right;
     padding-right:3% ;
 }
-@media screen and (min-width:100px) and (max-width: 550px){
-    body{
-        width: 100%;
-    }
-    .conta{
-        padding-left: 55%;
-    }
-    .port h4{
-        width: 100%;
-    }
-    .temp1{
-        top: 17rem;
-        left: 10%;
-    }
-    .vector{
-        margin-top: 173%;
-        margin-left: 57%;
-        background-color: white;
-        width: 40%;
-        height: 20%;
-        position: absolute;
-    }
-}
-@media screen and (min-width: 100px) and (max-width: 550px) {
+@media screen and (min-width: 100px) and (max-width: 281px) {
     body{
         width: 100%;
     }
@@ -207,11 +184,295 @@ body{
     }
     .unit2{
         display: inline;
+        align-items: center;
+        text-align: center;
     }
     .unit2 div H1 {
         text-align: center;
         width: 190%;
-        margin-left: -62%;
+        /* margin-left: -62%; */
+    }
+    .text1 h1{
+        margin-top: 90%;
+        font-size: 320%;
+        color: rgba(3, 34, 170, 0.486);
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 10ch;
+        z-index: 0;
+    
+        animation: typing 2s steps(10),
+        blink .5s infinite step-end alternate;
+        overflow:hidden;
+        }
+    
+        @keyframes typing{
+            from{ width: 0}
+        }
+        @keyframes blink{
+            50%{border-color: transparent;}
+    }
+    .mund3 h1 {
+        font-size: 120%;
+        padding-bottom: 3%;
+    }
+    .port h4 {
+        text-align: left;
+        font-size: 10%;
+        color: rgb(0, 0, 0);
+        font-family: monospace;
+        white-space: nowrap;
+        width: 300%;
+        overflow: hidden;
+    }
+    .parad{
+        width: 200%;
+    }
+    .unit2 div {
+        padding: 1%;
+    }
+    .unit2{
+        text-align: center;
+    }
+    .unit2 div H1 {
+        text-align: center;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .unit2 div{
+        /* align-items: center; */
+        margin-left: 2%;
+    }
+    .mund3{
+        width: 47%;
+        height: 50%;
+        float: left;
+        margin-left: 3%;
+        margin-top: 2%;
+        text-align: center;
+    
+    }
+    .mund3 h1{
+        font-size: 140%;
+        padding-bottom: 3%;
+        margin-right: 0%;
+    }
+    .mund3 div h4{
+        font-size: 110%;
+        width: 100%;
+        height: 100%;
+    }
+    .mund3 div i{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        color: rgb(245, 212, 240);
+        padding-top: 11%;
+        font-size: 260%;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        width: 70%;
+        height: 76px;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 14px #777, 0 0 20px #CCC inset;
+    }
+    .visu{
+        display: none;
+    }
+    .csscode{
+        display: none;
+    }
+    .portal2{
+        position: relative;
+        width: 85%;
+        height: 75%;
+        margin-left: 6%;
+        top: 9%;
+    }
+    .tem1{
+        margin-left: 13%;
+        margin-top: 10%;
+    }
+    .tem1 h1{
+        margin-left: 59%;
+    }
+    .progress{
+        width: 100%;
+    }
+    .parad h5{
+        margin-left: 2%;
+    }
+    .skillcont{
+        margin-top: 40%;
+    }
+    .text1{
+        display: inline;
+    }
+    .mund1uni{
+        position: absolute;
+        display: flex;
+        margin-top: -150%;
+        margin-left: 10%;
+    }
+    .mund1uni div{
+     margin-right: 10%;
+     text-align: center;
+    }
+    .mund1uni div a {
+        text-decoration: none;
+    }
+    .tw{
+        color: #0CABDE;
+        text-decoration: none;
+    }
+    .ig{
+        text-decoration: none;
+        color: rgb(255, 174, 53);
+    }
+    .like{
+        text-decoration: none;
+        color: #0c79de;
+    }
+    .leftparte{
+        display: none;
+    }
+    .casaform form{
+        width: 80%;
+        margin-top: 18%;
+        margin-left: 1%;
+    }
+    .casaform form label{
+        margin-top: -11%;
+    }
+    .formulario-submit{
+        color: black;
+        background-color: #F7FCB5 ;
+        margin-left: 44%;
+        margin-top: 12%;
+        border-radius: 10%; ;
+    }
+    .unit2 div div img{
+        position: absolute;
+        z-index: 20;
+        width: 90%;
+        margin-left: -53%;
+        margin-top: -7%;
+        height: 70%;
+        border-radius: 4%;
+        -webkit-box-shadow:0 0px 2px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 2px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 7px #777, 0 0 20px #CCC inset;
+    
+    }
+}
+@media screen and (min-width:281px) and (max-width: 376px){
+    body{
+        width: 100%;
+    }
+    .conta{
+        padding-left: 55%;
+    }
+    .port h4{
+        width: 100%;
+    }
+    .temp1{
+        top: 17rem;
+        left: 10%;
+    }
+    .vector{
+        margin-top: 173%;
+        margin-left: 57%;
+        background-color: white;
+        width: 40%;
+        height: 20%;
+        position: absolute;
+    }
+    .unit2 div div img{
+        position: absolute;
+        z-index: 20;
+        width: 120%;
+        margin-left: -53%;
+        margin-top: -7%;
+        height: 100%;
+        border-radius: 4%;
+        -webkit-box-shadow:0 0px 2px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 2px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 7px #777, 0 0 20px #CCC inset;
+    
+    }
+}
+@media screen and (min-width:376px) and (max-width: 550px){
+    body{
+        width: 100%;
+    }
+    .conta{
+        padding-left: 55%;
+    }
+    .port h4{
+        width: 100%;
+    }
+    .temp1{
+        top: 17rem;
+        left: 10%;
+    }
+    .vector{
+        margin-top: 173%;
+        margin-left: 57%;
+        background-color: white;
+        width: 40%;
+        height: 20%;
+        position: absolute;
+    }
+    .unit2 div div img{
+        position: absolute;
+        z-index: 20;
+        width: 120%;
+        margin-left: -45%;
+        margin-top: -7%;
+        height: 100%;
+        border-radius: 4%;
+        -webkit-box-shadow:0 0px 2px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 2px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 7px #777, 0 0 20px #CCC inset;
+    
+    }
+}
+@media screen and (min-width: 281px) and (max-width: 550px) {
+    body{
+        width: 100%;
+    }
+    .port{
+        display: none;
+    }
+    .botonac{
+        position: absolute;
+        bottom: 44%;
+        left: 23%;
+        width: 30%;
+    }
+    .contenedor2 div div button{
+        z-index: 15;
+        right: 50%;
+        width: 40%;
+        height: 10%;
+        padding: 3% 8%;
+        border-radius: 8%;
+        background-color: #0CABDE  ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 130%;
+        color: aliceblue;
+    }
+    .unit2{
+        display: inline;
+        align-items: center;
+        text-align: center;
+    }
+    .unit2 div H1 {
+        text-align: center;
+        width: 190%;
+        /* margin-left: -62%; */
     }
     .text1 h1{
         font-size: 320%;
@@ -259,6 +520,10 @@ body{
     .unit2 div H1 {
         text-align: center;
         width: 100%;
+        margin-left: 2%;
+    }
+    .unit2 div{
+        /* align-items: center; */
         margin-left: 2%;
     }
     .mund3{
@@ -329,12 +594,15 @@ body{
     .mund1uni{
         position: absolute;
         display: flex;
-        margin-top: -110%;
+        margin-top: -100%;
         margin-left: 10%;
     }
     .mund1uni div{
      margin-right: 10%;
      text-align: center;
+    }
+    .mund1uni div a {
+        text-decoration: none;
     }
     .tw{
         color: #0CABDE;
@@ -342,9 +610,11 @@ body{
     }
     .ig{
         text-decoration: none;
+        color: rgb(255, 174, 53);
     }
-    .lik{
+    .like{
         text-decoration: none;
+        color: #0c79de;
     }
     .leftparte{
         display: none;
@@ -365,7 +635,7 @@ body{
         border-radius: 10%; ;
     }
 }
-@media screen and (min-width: 550px) and (max-width: 1300px) {
+@media screen and (min-width: 550px) and (max-width: 750px) {
     .port h4{
         width: 200%;
     }
@@ -425,6 +695,386 @@ body{
     .casaform form label{
         margin-top: -9%;
     }
+    .mundo2{
+        width: 110%;
+        padding-top: 3%;
+    }
+    .mund3{
+        width: 47%;
+        height: 50%;
+        float: left;
+        margin-left: 3%;
+        margin-top: 2%;
+        text-align: center;
+    
+    }
+    .mund3 h1{
+        font-size: 140%;
+        padding-bottom: 3%;
+        margin-right: 0%;
+    }
+    .mund3 div h4{
+        font-size: 110%;
+        width: 100%;
+        height: 100%;
+    }
+    .mund3 div i{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        color: rgb(245, 212, 240);
+        padding-top: 4%;
+        font-size: 260%;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        height: 76px;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 14px #777, 0 0 20px #CCC inset;
+    }
+    .unit2 div {
+        padding: 1%;
+        margin-right: 14%;
+    }
+    .unit2{
+        text-align: center;
+        margin-top: 10%;
+        align-items: center;
+    }
+    .unit2 div H1 {
+        text-align: center;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .unit2 div{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .contenedorna2{
+        width: 100%;
+    }
+    .awasd{
+        top: 0;
+        margin-right: 10%;
+        margin-top: 8%;
+        display: flex;
+        width: 118%;
+        
+    }
+    
+    .tem1 h1{
+        margin-left: 160%;
+    }
+    .skillcont div{
+        padding: 0%;
+    }
+    .port h4 {
+        text-align: left;
+        font-size: 120%;
+        color: rgb(0, 0, 0);
+        font-family: monospace;
+        white-space: nowrap;
+        width: 170%;
+        overflow: hidden;
+        margin-top: 34%;
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 920px) {
+    .port h4{
+        width: 200%;
+    }
+    .skillcont{
+        margin-left: 80%;
+        width: 100%;
+
+    }
+    .progress{
+        width: 300%;
+    }
+    .parad h5{
+        margin-left: 100%;
+    }
+    .tem1{
+        margin-top: 10%;
+    }
+
+    .temp1{
+        padding-top: 20%;
+    }
+    .mund1uni{
+        position: absolute;
+        display: flex;
+        margin-left: 4%;
+        margin-top: -53%;
+    }
+    .mund1uni div{
+     margin-right: 10%;
+     text-align: center;
+     font-size: 130%;
+    }
+    .tw{
+        color: #0CABDE;
+        text-decoration: none;
+    }
+    .ig{
+        text-decoration: none;
+        color: #de830c;
+    }
+    .like{
+        text-decoration: none;
+        color: #0c79de;
+    }
+    .leftparte {
+        display: none;
+    }
+    .casaform form{
+        align-items: center;
+        margin-left:30%;
+    }
+    .formulario-submit{
+        color: black;
+        background-color: #F7FCB5 ;
+        margin-left: 44%;
+        margin-top: 12%;
+        border-radius: 10%; ;
+    }
+    .casaform form label{
+        margin-top: -9%;
+    }
+    .mundo2{
+        width: 110%;
+        padding-top: 6%;
+        margin-top: 34%;
+        height: 50rem;
+    }
+    .mund3{
+        width: 41%;
+        height: 50%;
+        float: left;
+        margin-left: 3%;
+        margin-top: 2%;
+        text-align: center;
+    
+    }
+    .mund3 h1{
+        font-size: 140%;
+        padding-bottom: 3%;
+        margin-right: 0%;
+    }
+    .mund3 div h4{
+        font-size: 110%;
+        width: 100%;
+        height: 100%;
+    }
+    .mund3 div i{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        color: rgb(245, 212, 240);
+        padding-top: 4%;
+        font-size: 260%;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        height: 76px;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 14px #777, 0 0 20px #CCC inset;
+    }
+    .unit2 div {
+        padding: 1%;
+        margin-right: 14%;
+    }
+    .unit2{
+        text-align: center;
+        margin-top: 10%;
+        align-items: center;
+    }
+    .unit2 div H1 {
+        text-align: center;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .unit2 div{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .contenedorna2{
+        width: 100%;
+    }
+    .awasd{
+        top: 0;
+        margin-right: 10%;
+        margin-top: 8%;
+        display: flex;
+        width: 118%;
+        
+    }
+    
+    .tem1 h1{
+        margin-left: 160%;
+    }
+    .skillcont div{
+        padding: 0%;
+    }
+    .port h4 {
+        text-align: left;
+        font-size: 120%;
+        color: rgb(0, 0, 0);
+        font-family: monospace;
+        white-space: nowrap;
+        width: 170%;
+        overflow: hidden;
+        margin-top: 34%;
+    }
+    .mundo{
+        margin: 28% 0% 0% 0%;
+    }
+    .point1{
+        margin-left: 3%;
+        width: 94%;
+    }
+}
+@media screen and (min-width: 920px) and (max-width: 1300px) {
+    .port h4{
+        width: 200%;
+    }
+    .skillcont{
+        margin-left: 80%;
+        width: 100%;
+
+    }
+    .progress{
+        width: 300%;
+    }
+    .tem1{
+        margin-top: 10%;
+    }
+
+    .temp1{
+        padding-top: 20%;
+    }
+    .mund1uni{
+        position: absolute;
+        display: flex;
+        margin-left: 4%;
+        margin-top: -28%;
+    }
+    .mund1uni div{
+     margin-right: 10%;
+     text-align: center;
+     font-size: 130%;
+    }
+    .tw{
+        color: #0CABDE;
+        text-decoration: none;
+    }
+    .ig{
+        text-decoration: none;
+        color: #de8a0c;
+    }
+    .like{
+        text-decoration: none;
+        color: #0c79de;
+    }
+    .leftparte {
+        display: none;
+    }
+    .casaform form{
+        align-items: center;
+        margin-left:30%;
+    }
+    .formulario-submit{
+        color: black;
+        background-color: #F7FCB5 ;
+        margin-left: 44%;
+        margin-top: 12%;
+        border-radius: 10%; ;
+    }
+    .casaform form label{
+        margin-top: -9%;
+    }
+    .mund3{
+        width: 47%;
+        height: 50%;
+        float: left;
+        margin-left: 3%;
+        margin-top: -5%;
+        text-align: center;
+    
+    }
+    .mund3 h1{
+        font-size: 140%;
+        padding-bottom: 3%;
+        margin-right: 0%;
+    }
+    .mund3 div h4{
+        font-size: 110%;
+        width: 100%;
+        height: 100%;
+    }
+    .mund3 div i{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        color: rgb(245, 212, 240);
+        padding-top: 4%;
+        font-size: 260%;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        height: 76px;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 14px #777, 0 0 20px #CCC inset;
+    }
+    .unit2 div {
+        padding: 1%;
+        margin-right: 20%;
+    }
+    .unit2{
+        text-align: center;
+        margin-top: 10%;
+        align-items: center;
+    }
+    .unit2 div H1 {
+        text-align: center;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .unit2 div{
+        width: 100%;
+        margin-left: 7%;
+    }
+    .contenedorna2{
+        width: 100%;
+    }
+    .awasd{
+        top: 0;
+        margin-right: 10%;
+        margin-top: 8%;
+        display: flex;
+        width: 100%;
+        
+    }
+    
+    .tem1 h1{
+        margin-left: 160%;
+    }
+    .skillcont div{
+        padding: 0%;
+    }
+    .port h4 {
+        text-align: left;
+        font-size: 130%;
+        color: rgb(0, 0, 0);
+        font-family: monospace;
+        white-space: nowrap;
+        width: 170%;
+        overflow: hidden;
+        margin-top: 30%;
+    }
+    .mundo{
+        padding-top: 0%;
+    } 
 }
 @media screen and (min-height: 1200px) and (max-height: 1400px) {
     .casaform form{

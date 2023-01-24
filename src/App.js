@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Indexpage from './Pages/index'
 import Contacts from './Pages/contact'
 import '../src/App.css'

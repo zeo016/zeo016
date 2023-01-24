@@ -1,146 +1,454 @@
-.container{
-    width: 100%;
-    height: 1200px;
-    margin: 0%;
-}
-.awar {
-    display: flex;
-}
-.casaform{
-    display: contents;
-    top: 2%;
-}
-.formulario{
-    float: right;
-    position: relative;
-    width: 40%;
-    margin-left: 23%;
-    margin-right: 0%;
-    padding-top: 10%;
-}
-.formulario-labe, .formulario__input, .formulario-submit{
-    display: block;
-}
-.formulario h1{
-    padding-bottom: 3%;
-    margin-left: 40%;
-}
-.formulario__input:focus + .formulario-label{
-    margin-top: -18%;
-}
 
-.formulario__input{
-    width: 120%;
-    background: transparent;
-    padding: 3%;
-    margin-top: 8%;
-}
-.formulario-label{
-    position: absolute; 
-    margin-top: -8%;
-    left: 2%;
-    z-index: -20;
-}
-.formulario-submit{
-    margin-top: 4%;
-    padding: 2% 6%;
-    margin-left: 50%;
-}
-.anclar{
-    margin-top: -18%;
-}
-.container{
-    height: 100%;
-}
 
-/* Animacion monitor */
-.leftparte{
-    padding-top: 11%;
-}
-.monitor{
-    position: relative;
-    display: inline-block;
-}
-.textmoni{
-    position: absolute;
-    bottom: 32%;
-}
-.textmoni h4{
-    margin-top: -36%;
-    padding-left: 6%;
-    font-size: 120%;
-    color: #008D1C;
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    width: 52ch;
-    animation: typing 2s steps(42),
-    blink .5s infinite step-end alternate;
-    overflow:hidden;
+/* mediaquery pc 1400*/
+@media screen and (min-width: 1290px) and (max-width: 1400px) {
+    .containers{
+        display: flex;
+    }
+    .container{
+        width: 100%;
+        height: 30rem;
+        background-color: white;
+        margin-top: 10%;
+        padding: 0% 0% 0% 0%;
+        margin-left: -50%;
+        border-radius: 2%;
+        box-shadow: 10px 5px 5px rgb(194, 212, 216)
+    }
+    .contact-contai{
+        margin-top: 100px;
+        height: 100%;
+    }
+    .container h1{
+        padding-left: 34%;
+        padding: 4% 0% 4% 30%;
+        background-color: rgb(173, 173, 173);
+    }
+    
+    /* inputs*/
+    .form  input{
+        display: block;
+        /* margin: 0% 20% 2% 0%; */
+    }
+    
+    .tex1,.tex2,.tex3{
+        width: 50%;
+        padding: 1%;
+        margin: 1% 0% 0% 22%;
     
     }
-
-    @keyframes typing{
-        from{ width: 0}
+    .messg{
+        width: 60%;
+        padding: 0% 0% 15% 0%;
+        margin: 2% 0% 0% 17%;
+    
     }
-    @keyframes blink{
-        50%{border-color: transparent;}
-}
+    .formulario_submit{
+        width: 14%;
+        padding: 1%;
+        border-radius: 12%;
+        background-color: #a0a0a0;
+        margin: 2% 0% 0% 40%;
+    }
+    .formulario_submit:hover{
+        background-color: #b0dfee;
+    }
+    /* Reds */
+    .mund1uni{
+        width: 120%;
+        height: 130%;
+    }
+    .reds{
+        width: 60%;
+        margin: 15% 0% 0% 10%;
+    }
+    .red-point{
+        display: flex;
+    }
+    .red-point div{
+        width: 20%;
+        padding: 0% 0% 0% 3%;
+    }
+    .red-point div:hover{
+        background-color: #ffd1d1;
+        border-radius: 20%;
+    }
+    .red-point div a i{
+        padding: 20% 30% 10% 25%;
+    }
+    .red-point div a, i{
+        text-decoration: none;
+    }
+    .itwitter{
+        color: #a6e5fa;
+        text-decoration: none;
+    }
+    .iinstagram{
+        text-decoration: none;
+        color: rgb(243, 142, 75);
+    }
+    .ilinkedin{
+        text-decoration: none;
+        color: #054ab1;
+    }
 
-.monitor img{
-    margin-top: -12%;
-    margin-left: -1%;
-    width: 80%;
-    background-color: #077AC4;
-    height: 42rem;
+/* myData */
+    .myData{
+        padding: 5% 0% 0% 5%;
+    }
+    .myData div{
+        display: flex;
+    }
+    .myData h3{
+        font-size: 120%;
+    }
+    .myData div i{
+        padding: 3% 2% 0% 0%;
+        font-size: 150%;
+    }
+    .myData div h3{
+        font-size: 120%;
+        padding: 3% 0% 0% 0%;
+    }
 }
+@media screen and (min-width: 1000px) and (max-width: 1290px) {
+    .containers{
+        display: flex;
+    }
+    .container{
+        width: 100%;
+        height: 30rem;
+        background-color: white;
+        margin-top: 10%;
+        padding: 0% 0% 0% 0%;
+        margin-left: -50%;
+        border-radius: 2%;
+        box-shadow: 10px 5px 5px rgb(194, 212, 216)
+    }
+    .contact-contai{
+        margin-top: 100px;
+        height: 100%;
+    }
+    .container h1{
+        padding-left: 34%;
+        padding: 4% 0% 4% 30%;
+        background-color: rgb(173, 173, 173);
+    }
+    
+    /* inputs*/
+    .form  input{
+        display: block;
+        /* margin: 0% 20% 2% 0%; */
+    }
+    
+    .tex1,.tex2,.tex3{
+        width: 50%;
+        padding: 1%;
+        margin: 1% 0% 0% 22%;
+    
+    }
+    .messg{
+        width: 60%;
+        padding: 0% 0% 15% 0%;
+        margin: 2% 0% 0% 17%;
+    
+    }
+    .formulario_submit{
+        width: 14%;
+        padding: 1%;
+        border-radius: 12%;
+        background-color: #a0a0a0;
+        margin: 2% 0% 0% 40%;
+    }
+    .formulario_submit:hover{
+        background-color: #b0dfee;
+    }
+    /* Reds */
+    .mund1uni{
+        width: 90%;
+        height: 130%;
+    }
+    .reds{
+        width: 60%;
+        margin: 15% 0% 0% 10%;
+    }
+    .red-point{
+        display: flex;
+    }
+    .red-point div{
+        width: 20%;
+        padding: 0% 0% 0% 3%;
+    }
+    .red-point div:hover{
+        background-color: #ffd1d1;
+        border-radius: 20%;
+    }
+    .red-point div a i{
+        padding: 20% 30% 10% 25%;
+    }
+    .red-point div a, i{
+        text-decoration: none;
+    }
+    .itwitter{
+        color: #a6e5fa;
+        text-decoration: none;
+    }
+    .iinstagram{
+        text-decoration: none;
+        color: rgb(243, 142, 75);
+    }
+    .ilinkedin{
+        text-decoration: none;
+        color: #054ab1;
+    }
 
-.leftparte div{
-    width: 140%;
-}
-
-.isdelmoni{
-    display: flex;
-    bottom: 20%;
-    margin-left: 110%;
-}
-.isdelmoni div{
-    width: 9%;
-    height: 19%;
-    margin-top: -11%;
-    z-index: 30;
-    margin-left: 4%;
-}
-.isdelmoni div:hover{
-    transition: 400ms;
-    background-color: #8edcf3;
-    cursor: pointer;
-    border-radius: 13%;
-}
-.isdelmoni div i{
-    margin-left:38%;
+/* myData */
+    .myData{
+        padding: 5% 0% 0% 5%;
+    }
+    .myData div{
+        display: flex;
+    }
+    .myData h3{
+        font-size: 120%;
+    }
+    .myData div i{
+        padding: 3% 2% 0% 0%;
+        font-size: 150%;
+    }
+    .myData div h3{
+        font-size: 120%;
+        padding: 3% 0% 0% 0%;
+    }
+    .mundo2{
+        margin: 5%;
+        height: 53rem;
+        width: 92%;
+        background-color: white;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 44px #777, 0 0 20px #CCC inset;
+    }
     
 }
-.isdelmoni div a{
-    text-decoration: none;
-    cursor: pointer ;
-    margin-left:22%;
+
+/* mediaquery pc +1400*/
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .containers{
+        display: flex;
+    }
+    .container{
+        width: 100%;
+        height: 32rem;
+        background-color: white;
+        margin-top: 10%;
+        padding: 0% 0% 0% 0%;
+        margin-left: -50%;
+        border-radius: 2%;
+        box-shadow: 10px 5px 5px rgb(194, 212, 216)
+    }
+    .contact-contai{
+        margin-top: 100px;
+        height: 100%;
+    }
+    .container h1{
+        padding-left: 34%;
+        padding: 4% 0% 4% 30%;
+        background-color: rgb(173, 173, 173);
+    }
+    
+    /* inputs*/
+    .form  input{
+        display: block;
+        /* margin: 0% 20% 2% 0%; */
+    }
+    
+    .tex1,.tex2,.tex3{
+        width: 50%;
+        padding: 1%;
+        margin: 1% 0% 0% 22%;
+    
+    }
+    .messg{
+        width: 60%;
+        padding: 0% 0% 15% 0%;
+        margin: 2% 0% 0% 17%;
+    
+    }
+    .formulario_submit{
+        width: 14%;
+        padding: 1%;
+        border-radius: 12%;
+        background-color: #a0a0a0;
+        margin: 2% 0% 0% 40%;
+    }
+    .formulario_submit:hover{
+        background-color: #b0dfee;
+    }
+    /* Reds */
+    .mund1uni{
+        width: 120%;
+        height: 130%;
+    }
+    .reds{
+        width: 60%;
+        margin: 15% 0% 0% 10%;
+    }
+    .red-point{
+        display: flex;
+    }
+    .red-point div{
+        width: 20%;
+        padding: 0% 0% 0% 3%;
+    }
+    .red-point div:hover{
+        background-color: #ffd1d1;
+        border-radius: 20%;
+    }
+    .red-point div a i{
+        padding: 20% 30% 10% 25%;
+    }
+    .red-point div a, i{
+        text-decoration: none;
+    }
+    .itwitter{
+        color: #a6e5fa;
+        text-decoration: none;
+    }
+    .iinstagram{
+        text-decoration: none;
+        color: rgb(243, 142, 75);
+    }
+    .ilinkedin{
+        text-decoration: none;
+        color: #054ab1;
+    }
+
+/* myData */
+    .myData{
+        padding: 5% 0% 0% 5%;
+    }
+    .myData div{
+        display: flex;
+    }
+    .myData h3{
+        font-size: 120%;
+    }
+    .myData div i{
+        padding: 3% 2% 0% 0%;
+        font-size: 150%;
+    }
+    .myData div h3{
+        font-size: 120%;
+        padding: 3% 0% 0% 0%;
+    }
 }
-.itwitter{
-    color: #077AC4;
-}
-.iinstagram{
-    color: #C42407;
-}
-.ilinkedin{
-    color: #1E1987;
-}
-.tw{
-    color: #077AC4;
-}
-.ig{
-    color: #C42407;
-}
-.lik{
-    color: #1E1987;
+
+/* mediaquery phone */
+@media screen and (min-width: 100px) and (max-width: 1000px) {
+    .myData{
+        display: none;
+    }
+    .containers{
+        display: block;
+    }
+    .container{
+        width: 95%;
+        height: 34%;
+        background-color: white;
+        margin-top: 20%;
+        padding: 0% 0% 5% 0%;
+        border-radius: 2%;
+        box-shadow: 10px 5px 5px rgb(194, 212, 216)
+    }
+    .contact-contai{
+        margin-top: 100px;
+        height: 100%;
+    }
+    .container h1{
+        padding-left: 34%;
+        padding: 4% 0% 4% 30%;
+        background-color: rgb(173, 173, 173);
+    }
+    
+    /* inputs*/
+    .form{
+        height: 120%;
+    }
+    .form  input{
+        display: block;
+        /* margin: 0% 20% 2% 0%; */
+    }
+    
+    .tex1,.tex2,.tex3{
+        width: 70%;
+        padding: 1%;
+        margin: 1% 0% 0% 14%;
+    
+    }
+    .messg{
+        width: 70%;
+        padding: 0% 0% 15% 0%;
+        margin: 2% 0% 0% 14%;
+    
+    }
+    .formulario_submit{
+        width: 14%;
+        padding: 1%;
+        border-radius: 12%;
+        background-color: #a0a0a0;
+        margin: 2% 0% 0% 40%;
+    }
+    .formulario_submit:hover{
+        background-color: #b0dfee;
+    }
+    /* Reds */
+    .mund1uni{
+        width: 90%;
+        height: 130%;
+    }
+    .reds{
+        width: 60%;
+        margin: 15% 0% 0% 10%;
+    }
+    .red-point{
+        display: flex;
+    }
+    .red-point div{
+        width: 20%;
+        padding: 0% 0% 0% 3%;
+    }
+    .red-point div:hover{
+        background-color: #ffd1d1;
+        border-radius: 20%;
+    }
+    .red-point div a i{
+        padding: 20% 30% 10% 25%;
+    }
+    .red-point div a, i{
+        text-decoration: none;
+    }
+    .itwitter{
+        color: #a6e5fa;
+        text-decoration: none;
+    }
+    .iinstagram{
+        text-decoration: none;
+        color: rgb(243, 142, 75);
+    }
+    .ilinkedin{
+        text-decoration: none;
+        color: #054ab1;
+    }
+    /* myData */
+    .mundo2{
+        margin: 5%;
+        height: 53rem;
+        width: 92%;
+        background-color: white;
+        -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+        box-shadow:0 0px 44px #777, 0 0 20px #CCC inset;
+    }
+
 }
