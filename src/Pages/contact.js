@@ -11,7 +11,7 @@ const Contacts = ()=>{
         <div className="containers">
             <Navbar/>
             <div className="container">
-                <form name="contact" id="form" className="form"  method="POST" data-netlify="true">
+                <form name="contact" id="form" className="form" netlify method="POST" data-netlify="true">
                     <h1>Contact me</h1>
                     <input name="name" type="text" className="formulario_input tex1" required placeholder="Name"></input>
                     <input name="email" type="text" className="formulario_input tex2" required  placeholder="Mail"></input>
