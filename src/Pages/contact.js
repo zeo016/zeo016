@@ -11,14 +11,13 @@ const Contacts = ()=>{
         <div className="containers">
             <Navbar/>
             <div className="container">
-                <form name="contact" id="form" className="form" netlify method="POST" data-netlify="true">
+                <form name="contact" id="form" className="form" netlify="true" method="POST" data-netlify="true">
                     <h1>Contact me</h1>
                     <input name="name" type="text" className="formulario_input tex1" required placeholder="Name"></input>
                     <input name="email" type="text" className="formulario_input tex2" required  placeholder="Mail"></input>
                     <input name="phonenumber" type="text" className="formulario_input tex3" placeholder="Phone number"></input>
-                    <input name="message" type="text" cols="2" rows="5" className="formulario_input messg" required placeholder="Write your message"></input>
+                    <textarea name="message" type="text" cols="2" rows="5" className="formulario_input messg" required placeholder="Write your message"></textarea>
                     <input type="submit" className="formulario_submit" name="" ></input>
-                    <input type="hidden" name="_next" value="http://localhost:3000"></input>
                 </form>
             </div>
             <div className="reds">
