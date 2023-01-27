@@ -11,7 +11,8 @@ const Contacts = ()=>{
         <div className="containers">
             <Navbar/>
             <div className="container">
-                <form name="contact" id="form" className="form"  method="POST" data-netlify="true">
+                <form name="contact" id="form" className="form" action="https://formspree.io/f/mlekdogw"
+  method="POST">
                     <h1>Contact me</h1>
                     <input name="name" type="text" className="formulario_input tex1" required placeholder="Name"></input>
                     <input name="email" type="text" className="formulario_input tex2" required  placeholder="Mail"></input>
@@ -57,7 +58,6 @@ const Contacts = ()=>{
                         <h3>Argentina, Buenos Aires</h3>
                 </div>
             </div>
-            
     </div>
     )
 }
